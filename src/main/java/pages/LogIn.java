@@ -18,7 +18,7 @@ public class LogIn extends Base {
 	@FindBy(css="#passwd")
 	WebElement pssd;
 	
-	@FindBy(xpath="//p[@class='submit']//span[]")
+	@FindBy(xpath="//p[@class='submit']//span[1]")
 	WebElement submitBtn;
 	
 	
